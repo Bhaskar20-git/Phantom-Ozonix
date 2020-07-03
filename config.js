@@ -15,7 +15,7 @@ exports.username = 'DRaG0NAcE';
 exports.password = '11042002';
 
 // The server address to which Phantom Ozonix will connect
-exports.server = 'storm-gaze.herokuapp.com-80.psim.us';
+exports.server = 'darkpower.psim.us';
 
 // The avatar that Phantom Ozonix will use
 exports.avatar = '';
