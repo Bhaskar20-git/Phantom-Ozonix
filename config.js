@@ -10,12 +10,12 @@
 'use strict';
 
 // The username and password that Phantom Ozonix will use to login
-exports.username = 'Example Username';
+exports.username = 'DRaG0NAcE';
 // leave this blank if the username is unregistered
-exports.password = '';
+exports.password = '11042002';
 
 // The server address to which Phantom Ozonix will connect
-exports.server = '';
+exports.server = 'darkpower.psim.us';
 
 // The avatar that Phantom Ozonix will use
 exports.avatar = '';
@@ -30,7 +30,7 @@ exports.guide = 'https://github.com/FlyingPhantom/Phantom-Ozonix/blob/master/Gui
 // Rooms that Phantom Ozonix will attempt to join after logging in
 // example: exports.rooms = ['room1', 'room2', 'room3'];
 /**@type {Array<string>} */
-exports.rooms = [];
+exports.rooms = ['lobby','tournaments'];
 
 // Rooms where scripted games are enabled
 /**@type {Array<string>} */
@@ -44,7 +44,7 @@ exports.tournaments = [];
 exports.defaultTournamentCap = 0;
 
 // The character that determines which messages are read as commands
-exports.commandCharacter = '.';
+exports.commandCharacter = '&';
 
 // Symbols and rankings for the server's user groups
 /**@type {{[k: string]: number}} */
@@ -68,7 +68,7 @@ exports.bannedWords = [];
 // Userids of those who have debug access to Phantom Ozonix
 // example: exports.developers = ['devuser1', 'devuser2', 'devuser3'];
 /**@type {Array<string>} */
-exports.developers = [];
+exports.developers = ['bhaskar20'];
 
 // Custom functions
 /**@type {?Function} */
@@ -77,7 +77,7 @@ exports.parseMessage = null;
 exports.moderate = null;
 
 /**@type {boolean | {[k: string]: boolean}} */
-exports.allowModeration = false;
+exports.allowModeration = true;
 
 /**@type {{[k: string]: number}} */
 let punishmentPoints = {
